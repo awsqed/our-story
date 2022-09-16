@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>our story - us</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>our story</h1>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="us.html">us</a>
+      </nav>
+    
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+    </ul>
+    
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+        
+          <li data-src="media/large/us/28836-25272-5351.jpg"
+              data-sub-html=""
+              data-download-url="media/large/us/28836-25272-5351.jpg"
+              
+              data-filename="28836-25272-5351.jpg"
+        
+            >
+            <a href="media/large/us/28836-25272-5351.jpg">
+              <img src="media/thumbs/us/28836-25272-5351.jpg"
+                   width="120"
+                   height="120"
+                   alt="28836-25272-5351.jpg" />
+            </a>
+          </li>    
+          <li data-src="media/large/us/22232-2527-7385.jpg"
+              data-sub-html=""
+              data-download-url="media/large/us/22232-2527-7385.jpg"
+              
+              data-filename="22232-2527-7385.jpg"
+        
+            >
+            <a href="media/large/us/22232-2527-7385.jpg">
+              <img src="media/thumbs/us/22232-2527-7385.jpg"
+                   width="120"
+                   height="120"
+                   alt="22232-2527-7385.jpg" />
+            </a>
+          </li>    
+          <li data-src="media/large/us/12140-26148-17366.jpg"
+              data-sub-html=""
+              data-download-url="media/large/us/12140-26148-17366.jpg"
+              
+              data-filename="12140-26148-17366.jpg"
+        
+            >
+            <a href="media/large/us/12140-26148-17366.jpg">
+              <img src="media/thumbs/us/12140-26148-17366.jpg"
+                   width="120"
+                   height="120"
+                   alt="12140-26148-17366.jpg" />
+            </a>
+          </li>    
+          <li data-src="media/large/us/15780-25563-26227.jpg"
+              data-sub-html=""
+              data-download-url="media/large/us/15780-25563-26227.jpg"
+              
+              data-filename="15780-25563-26227.jpg"
+        
+            >
+            <a href="media/large/us/15780-25563-26227.jpg">
+              <img src="media/thumbs/us/15780-25563-26227.jpg"
+                   width="120"
+                   height="120"
+                   alt="15780-25563-26227.jpg" />
+            </a>
+          </li>    
+          <li data-src="media/large/us/26366-12506-4195.jpg"
+              data-sub-html=""
+              data-download-url="media/large/us/26366-12506-4195.jpg"
+              
+              data-filename="26366-12506-4195.jpg"
+        
+            >
+            <a href="media/large/us/26366-12506-4195.jpg">
+              <img src="media/thumbs/us/26366-12506-4195.jpg"
+                   width="120"
+                   height="120"
+                   alt="26366-12506-4195.jpg" />
+            </a>
+          </li>    
+          <li data-src="media/large/us/30770-7948-4913.jpg"
+              data-sub-html=""
+              data-download-url="media/large/us/30770-7948-4913.jpg"
+              
+              data-filename="30770-7948-4913.jpg"
+        
+            >
+            <a href="media/large/us/30770-7948-4913.jpg">
+              <img src="media/thumbs/us/30770-7948-4913.jpg"
+                   width="120"
+                   height="120"
+                   alt="30770-7948-4913.jpg" />
+            </a>
+          </li>    
+          <li data-src="media/large/us/10693-9014-10103.jpg"
+              data-sub-html=""
+              data-download-url="media/large/us/10693-9014-10103.jpg"
+              
+              data-filename="10693-9014-10103.jpg"
+        
+            >
+            <a href="media/large/us/10693-9014-10103.jpg">
+              <img src="media/thumbs/us/10693-9014-10103.jpg"
+                   width="120"
+                   height="120"
+                   alt="10693-9014-10103.jpg" />
+            </a>
+          </li></ul>
+    
+    <!--
+      Pagination
+    -->
+    
+    <!--
+      Zip file link
+    -->
+    
+    
+    <!--
+      Optional footer
+    -->
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
