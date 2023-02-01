@@ -1,3 +1,3 @@
 # our-story
 Our story gallery
-https://chocosm.com/
+https://our-story.chocosm.com/
